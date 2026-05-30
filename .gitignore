@@ -31,3 +31,6 @@ nbdist/
 # Archivos del sistema operativo
 Thumbs.db
 .DS_Store
+
+# Reportes y archivos locales temporales
+reporte.html
