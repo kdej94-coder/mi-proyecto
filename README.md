@@ -1,59 +1,58 @@
-# Proyecto - [Nombre del Proyecto]
+# Sistema de Administración de Citas IMSS
 
-Descripción breve del proyecto.
+Sistema de consola en Java diseñado para llevar el control de registros médicos, gestionar doctores, pacientes y agendar citas sin conflictos de horario.
 
 ---
 
 ## Instalación y Configuración
 
 ### Requisitos previos
-- Java JDK 8 o superior
-- Git instalado en el sistema
+- Java JDK 11 o superior.
+- Apache Maven (opcional para compilación).
 
 ### Pasos de instalación
-
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+   git clone https://github.com/TU_USUARIO/mi-proyecto.git
    ```
 2. Navegar al directorio del proyecto:
    ```bash
-   cd TU_REPOSITORIO
+   cd mi-proyecto
    ```
-3. Compilar el proyecto:
+3. Compilar el proyecto usando Maven (Generar FAT JAR):
    ```bash
-   javac *.java
+   mvn clean package
    ```
-
-### Configuración
-- No se requiere configuración adicional para ejecutar el programa.
+   *Esto descargará las dependencias necesarias y creará el ejecutable en la carpeta `target/`.*
 
 ---
 
 ## Uso del Programa
 
-1. Ejecutar el programa:
+1. Ejecutar el programa desde el FAT JAR generado:
    ```bash
-   java Main
+   java -jar target/sistema-citas-1.0-jar-with-dependencies.jar
    ```
-2. Seguir las instrucciones en pantalla.
+2. Iniciar sesión usando las credenciales por defecto:
+   - **ID Administrador:** admin
+   - **Contraseña:** 1234
+3. Navegar por las opciones del menú interactivo para dar de alta doctores, pacientes o generar nuevas citas médicas.
 
 ---
 
 ## Créditos
 
-- **Carlos** - Desarrollo del proyecto.
+- **Carlos** - Desarrollo de la lógica, modelado de clases e implementación del proyecto.
 
 ---
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT.
 
-```
+```text
 MIT License
-
-Copyright (c) 2026
+Copyright (c) 2026 Carlos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -64,12 +63,4 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ```
