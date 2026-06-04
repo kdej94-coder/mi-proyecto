@@ -42,9 +42,9 @@ Sistema de consola en Java diseñado para llevar el control de registros médico
 
 ## Créditos
 
-- **Carlos** - Desarrollo de la lógica, modelado de clases e implementación del proyecto.
+- **Carlos Colorado** - Desarrollo de la lógica, modelado de clases e implementación del proyecto.
 
----
+--- 
 
 ## Licencia
 
